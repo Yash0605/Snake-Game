@@ -1,0 +1,40 @@
+html{
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+}
+
+.main {
+    position: relative;
+}
+
+.score {
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.score_header {
+    display: inline-block;
+}
+
+.score_value {
+    font-size: 1.4rem;
+}
+
+.canvas {
+    position: relative;
+    width: 90vw;
+    height: 90vh;
+}
+
+.snake_canvas {
+    border: 1px solid black;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #3e3e3e;
+    box-shadow: 0 1rem 3rem rgba(0,0,0, 0.2);
+}
